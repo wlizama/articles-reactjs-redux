@@ -1,6 +1,7 @@
 import React from 'react'
 import ArticleList from './components/ArticleList'
 import Form from './components/Form'
+import Posts from './components/Posts'
 
 const App = () => {
 	return (
@@ -12,6 +13,10 @@ const App = () => {
 			<div>
 				<h2>Add a new Article</h2>
 				<Form />
+			</div>
+			<div>
+				<h2>API Async Posts</h2>
+				<Posts />
 			</div>
 		</React.Fragment>
 
