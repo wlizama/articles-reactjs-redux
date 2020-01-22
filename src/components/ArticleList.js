@@ -10,10 +10,16 @@ const mapStateToProps = state => {
 }
 
 const ConnectedList = ({ articles }) => (
-    <ul>
-        {articles.map((article, idx) => (
-            <li key={idx}>{article.title}</li>
-        ))}
+    <ul className="list-group">
+        { articles.length > 0 ?
+        articles.map((article, idx) => (
+            <li key={idx} className="list-group-item">{article.title}</li>
+        ))
+        :
+        <p className="text-info text-center">
+            No articles found
+        </p>
+        }
     </ul>
 )
 

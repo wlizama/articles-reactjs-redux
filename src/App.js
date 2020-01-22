@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+import HeaderLink from './components/HeaderLink'
 import ArticleList from './components/ArticleList'
 import Form from './components/Form'
 import Posts from './components/Posts'
@@ -10,19 +11,19 @@ const App = () => {
 		<div className="container">
 			<div className="row justify-content-center my-4">
 				<div className="col">
-					<h2>Articles</h2>
+					<HeaderLink ident="Articles">Articles</HeaderLink>
 					<ArticleList />
 				</div>
 			</div>
 			<div className="row justify-content-center my-4">
 				<div className="col">
-					<h2>Add a new Article</h2>
+					<HeaderLink ident="add-new-article">Add a new Article</HeaderLink>
 					<Form />
 				</div>
 			</div>
 			<div className="row justify-content-center my-4">
 				<div className="col">
-					<h2>API Async Posts</h2>
+					<HeaderLink ident="api-async-posts">API Async Posts</HeaderLink>
 					<Posts />
 				</div>
 			</div>
