@@ -26,11 +26,11 @@ const ConnectedForm = ({ addArticle }) => {
 
     return (
         <form onSubmit={onSubmit}>
-            <div>
+            <div className="form-group">
                 <label htmlFor='title'>Title:</label>
-                <input type="text" name='title' value={article.title} onChange={onChangeArticle} />
+                <input type="text" name='title' className="form-control" value={article.title} onChange={onChangeArticle} />
             </div>
-            <button type="submit">Save 💾</button>
+            <button type="submit" className="btn btn-primary w-50">💾 Save</button>
         </form>
     )
 }

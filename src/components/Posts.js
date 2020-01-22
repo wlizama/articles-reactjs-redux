@@ -12,13 +12,13 @@ const Posts = props => {
     }, [])
 
     return (
-        <div>
-            <ul>
-                {props.articles.map( (article, idx) => (
-                    <li key={article.id}>[{idx+1}]{article.title}</li>
-                ))}
-            </ul>
-        </div>
+        <ul className="list-group list-group-flush">
+            {props.articles.map( (article, idx) => (
+                <li key={article.id} className="list-group-item">
+                    <span className="font-weight-bold">{idx+1}. </span>{article.title}
+                </li>
+            ))}
+        </ul>
     )
 }
 
