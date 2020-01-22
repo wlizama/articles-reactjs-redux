@@ -11,20 +11,38 @@ const App = () => {
 		<div className="container">
 			<div className="row justify-content-center my-4">
 				<div className="col">
-					<HeaderLink ident="Articles">Articles</HeaderLink>
-					<ArticleList />
+					<div className="card">
+						<div className="card-header">
+							<HeaderLink ident="Articles">Articles</HeaderLink>
+						</div>
+						<div className="card-body">
+							<ArticleList />
+						</div>
+					</div>
 				</div>
 			</div>
 			<div className="row justify-content-center my-4">
 				<div className="col">
-					<HeaderLink ident="add-new-article">Add a new Article</HeaderLink>
-					<Form />
+					<div className="card">
+						<div className="card-header">
+							<HeaderLink ident="add-new-article">Add a new Article</HeaderLink>
+						</div>
+						<div className="card-body">
+							<Form />
+						</div>
+					</div>
 				</div>
 			</div>
 			<div className="row justify-content-center my-4">
 				<div className="col">
-					<HeaderLink ident="api-async-posts">API Async Posts</HeaderLink>
-					<Posts />
+					<div className="card">
+						<div className="card-header">
+							<HeaderLink ident="api-async-posts">API Async Posts</HeaderLink>
+						</div>
+						<div className="card-body">
+							<Posts />
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
