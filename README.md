@@ -11,4 +11,9 @@ Aplicación para poner en practica el uso de Redux en ReactJS
 
 - [Here 👉](https://articles-reactjs-redux.netlify.com/)
 
+## Todo
+
+[] Seguir ejemplo implementación [Here 👉](https://es.redux.js.org/docs/basico/ejemplo-todos.html)
+
+
 ![img demo](./art/demo-mobile-01.jpg)
