@@ -7,6 +7,8 @@ Aplicación para poner en practica el uso de Redux en ReactJS
 
 - [Blog tutorial de ejemplo](https://www.valentinog.com/blog/redux/)
 
+- [Ducks modular redux](https://github.com/erikras/ducks-modular-redux)
+
 ## Demo
 
 - [Here 👉](https://articles-reactjs-redux.netlify.com/)
